@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica e Áudio</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/paisagem-474.jpg" type="image/jpg">
+        <source media="(max-width: 1600px)" srcset="imagens/paisagem-700.jpg" type="image/jpg">
+        <img src="imagens/paisagem-1600.jpg" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="guanacast-33.mp3" controls></audio>
+</body>
+</html>
